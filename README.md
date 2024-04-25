@@ -37,8 +37,8 @@ To ensure the script runs continuously and starts automatically at boot, you can
    [Service]
    User=your_user
    Group=your_group
-   WorkingDirectory=/path/to/telegram_bot
-   ExecStart=/path/to/python /path/to/telegram_bot/run.py
+   WorkingDirectory=~/telegram_bot
+   ExecStart=/path/to/python ~/telegram_bot/run.py
 
    Restart=always
 
